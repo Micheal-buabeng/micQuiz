@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE GHANA IMMIGRATION SERVICE QUIZ APP</title>
+    <link rel="stylesheet" href="QUIZ-APP.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,
+wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,
+5..1200,300..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="MEDIA-QUERY.CSS">
+    
+</head>
+<body>
+    <div id="overlay">
+        <h1>THE GHANA IMMIGRATION SERVICE</h1>
+        <img src="images/images (7).jpeg" alt="">
+        <h4>Friendship with Vigilance</h4>
+
+
+    </div>
+
+   
+
+<header>
+    <div class="display-logo">
+        <img src="images/images (7).jpeg" id="logoImage" class="image" alt="">
+
+    </div>
+    <div>
+        <h1 class="head">THE GHANA IMMIGRATION ACADEMY</h1>
+        <p>Choose a topic from these category</p>
+    
+    </div>
+
+    <div class="mode-container">
+        <h1 class="mode-title">MODE</h1>
+        <div >
+            <input type="checkbox" id="input">
+            <label for="input" class="label" >
+                <div class="circle">
+
+                </div>
+            </label>
+        </div>
+    </div>
+
+</header>
+
+<div class="selected-buttons">
+    <div>
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e5"><path d="M80-120v-80h360v-447q-26-9-45-28t-28-45H240l120 280q0 50-41 85t-99 35q-58 0-99-35t-41-85l120-280h-80v-80h247q12-35 43-57.5t70-22.5q39 0 70 22.5t43 57.5h247v80h-80l120 280q0 50-41 85t-99 35q-58 0-99-35t-41-85l120-280H593q-9 26-28 45t-45 28v447h360v80H80Zm585-320h150l-75-174-75 174Zm-520 0h150l-75-174-75 174Zm335-280q17 0 28.5-11.5T520-760q0-17-11.5-28.5T480-800q-17 0-28.5 11.5T440-760q0 17 11.5 28.5T480-720Z"/></svg>
+    
+        <button class="law" id="btn-immigration"> 
+            IMMIGRATION LAWS
+        </button>
+
+    </div>
+
+    <div>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-80q-139-35-229.5-159.5T160-516v-244l320-120 320 120v244q0 152-90.5 276.5T480-80Zm0-84q97-30 162-118.5T718-480H480v-315l-240 90v207q0 7 2 18h238v316Z"/></svg>
+
+        <button class="law" id="btn-security"> SECURITY LAWS</button>
+
+    </div>
+
+    <div>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M320-414v-306h120v306l-60-56-60 56Zm200 60v-526h120v406L520-354ZM120-216v-344h120v224L120-216Zm0 98 258-258 142 122 224-224h-64v-80h200v200h-80v-64L524-146 382-268 232-118H120Z"/></svg>
+
+         <button class="law" id="btn-investment">INVESTMENT LAWS</button>
+
+
+    </div>
+
+    
+        
+       
+    
+    
+
+</div>
+
+
+<div id="modal-overlay">
+    
+    <div id="modal">
+        <div class="close">
+        <svg  id="modal-close" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+         width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224
+          224-56 56-224-224-224 224Z"/></svg>
+       </div>
+        <h2 id="modal-title">SUBTOPICS</h2>
+        <div id="modal-subtopics"></div>
+        
+    </div>
+</div>
+    
+
+
+
+
+
+    <script src="QUIZ-APP.JS"></script>
+    
+</body>
+</html>
